@@ -56,7 +56,7 @@ app.use((req, res, next) => {
 
 // rutas
 app.use("/", require("./routes/index"));
-app.use("/random", require("./routes/apiRandom"));
+app.use("/randoms", require("./routes/apiRandom"));
 
 // Levanto puerto
 // app.listen(app.get("port"), () => {
